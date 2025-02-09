@@ -2,6 +2,29 @@
 
 This project is a **Spring Boot CRUD application** for managing resort bookings. It allows users to perform basic operations like adding, retrieving, updating, and deleting bookings for customers.  
 
+## Project Structure
+list_project_players2/
+│── src/main/java/com/tka/
+│   ├── controller/
+│   │   ├── ResortController.java
+│   ├── service/
+│   │   ├── ResortService.java
+│   │   ├── ResortServiceImpl.java
+│   ├── dao/
+│   │   ├── ResortDAO.java
+│   │   ├── ResortDAOInterface.java
+│   ├── entity/
+│   │   ├── Customers.java
+│   ├── ListProjectPlayers2Application.java  (Main Spring Boot Application)
+│
+│── src/main/resources/
+│   ├── application.properties  (Database Configuration)
+│
+│── pom.xml  (Maven dependencies)
+│── README.md  (Project Description)
+│── .gitignore  (Ignore target files, dependencies)
+
+
 ## Features  
 
 - **Add a Booking**: Insert a single customer booking.
